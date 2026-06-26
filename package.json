@@ -1,0 +1,24 @@
+{
+  "name": "horology",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "^1.0.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "jsdom": "^29.1.1",
+    "vite": "^5.0.8",
+    "vitest": "^4.1.9"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:snapshots": "UPDATE_SNAPSHOTS=1 vitest run snapshot"
+  }
+}
